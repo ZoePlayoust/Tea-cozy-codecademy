@@ -81,12 +81,30 @@ li.navbar-element{
     text-align: center;
     line-height: 2;
     padding: 10px 0;
-    width: 1200px;
+    width: 100%;
 }
 
 /* Secondary Block */
+
+.secondary-block{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
 .image-gallery{
     width: 300px;
+    margin: 0 15px;
+}
+
+div h4 {
+    margin: 10px 0 15px 0px
 }
 
 /* Third Block */
