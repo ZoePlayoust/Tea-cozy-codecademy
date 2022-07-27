@@ -49,7 +49,7 @@ ul.navbar{
     cursor: pointer;
 }
 
-li{
+li.navbar-element{
 margin-left: 15px;
 margin-right: 10px;
 text-decoration: underline;
@@ -108,10 +108,52 @@ div h4 {
 }
 
 /* Third Block */
-
 .third-block{
-    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*11tag5c*_ga*NjA1NTI4ODY1Mi4xNjU3NzkwOTky*_ga_3LRZM6TM9L*MTY1ODkyMjIxNy40NC4xLjE2NTg5MjI1ODEuNjA)
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*11tag5c*_ga*NjA1NTI4ODY1Mi4xNjU3NzkwOTky*_ga_3LRZM6TM9L*MTY1ODkyMjIxNy40NC4xLjE2NTg5MjI1ODEuNjA);
+    height: 500px; 
+    margin: 0 auto;
+    text-align: center;
+}
 
+.row-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blocks{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px ;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+
+}
+.title{
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+
+.addresses{
+    list-style: none;
+    margin-bottom: 30px;
 }
 
 /* Footer */ 
+footer{
+    padding-top: 15px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+small p{
+    margin: 20px 0 20px 20px ;
+}
